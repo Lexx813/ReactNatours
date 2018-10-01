@@ -9,6 +9,7 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
+    "precommit": "pretty-quick --staged",
     "build-css": "node-sass-chokidar src/styles/scss -o src/styles/css",
     "sass": "npm run build-css && node-sass-chokidar src/styles/scss -o src/styles/css --watch --recursive --usePolling --polling-interval 500",
     "start": "react-scripts start",
