@@ -1,4 +1,7 @@
 import React from "react";
+import p1 from "../img/nat-1-large.jpg";
+import p2 from "../img/nat-2-large.jpg";
+import p3 from "../img/nat-3-large.jpg";
 
 const About = () => {
   return (
@@ -32,7 +35,25 @@ const About = () => {
             Learn more &rarr;
           </a>
         </div>
-        <div className="col-1-of-2" />
+        <div className="col-1-of-2">
+          <div className="composition">
+            <img
+              src={p1}
+              alt=""
+              className="composition__photo composition__photo--p1"
+            />
+            <img
+              src={p2}
+              alt=""
+              className="composition__photo composition__photo--p2"
+            />
+            <img
+              src={p3}
+              alt=""
+              className="composition__photo composition__photo--p3"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
