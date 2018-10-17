@@ -25,14 +25,38 @@ const Book = () => {
               <div className="form__group">
                 <input
                   id="email"
-                  type="text"
+                  type="email"
                   placeholder="Email address"
                   className="form__input"
                   required
                 />
-                <label htmlFor="name" className="form__label">
+                <label htmlFor="email" className="form__label">
                   Email adress
                 </label>
+              </div>
+              <div className="form__group">
+                <div className="form__radio-group">
+                  <input
+                    type="radio"
+                    className="form__radio-input"
+                    id="small"
+                    name="size"
+                  />
+                  <label htmlFor="small" className="form__radio-label">
+                    Small tour group
+                  </label>
+                </div>
+                <div className="form__radio-group">
+                  <input
+                    type="radio"
+                    className="form__radio-input"
+                    id="large"
+                    name="size"
+                  />
+                  <label htmlFor="large" className="form__radio-label">
+                    Large tour group
+                  </label>
+                </div>
               </div>
             </form>
           </div>
