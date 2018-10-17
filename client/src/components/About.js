@@ -5,7 +5,7 @@ import p3 from "../img/nat-3-large.jpg";
 
 const About = () => {
   return (
-    <div className="section-about">
+    <section className="section-about">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">
           Exciting tours for adventurous people
@@ -55,7 +55,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

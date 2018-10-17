@@ -3,7 +3,7 @@ import "../styles/css/icon-font.css";
 
 const Feature = () => {
   return (
-    <div className="section-features">
+    <section className="section-features">
       <div className="row">
         <div className="col-1-of-4">
           <div className="feature-box">
@@ -54,7 +54,7 @@ const Feature = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

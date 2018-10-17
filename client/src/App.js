@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Feature from "./components/Feature";
 import Tours from "./components/Tours";
+import Stories from "./components/Stories";
+import Book from "./components/Book";
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
         <About />
         <Feature />
         <Tours />
+        <Stories />
+        <Book />
       </React.Fragment>
     );
   }

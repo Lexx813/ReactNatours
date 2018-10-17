@@ -2,7 +2,7 @@ import React from "react";
 
 const Tours = () => {
   return (
-    <div className="section-tours">
+    <section className="section-tours">
       <div className="u-center-text u-margin-bottom-big">
         <h2 className="heading-secondary">Most popular tours</h2>
       </div>
@@ -43,7 +43,6 @@ const Tours = () => {
           </div>
         </div>
         <div className="col-1-of-3">
-          {" "}
           <div className="card">
             <div
               className="card__side
@@ -79,7 +78,6 @@ const Tours = () => {
           </div>
         </div>
         <div className="col-1-of-3">
-          {" "}
           <div className="card">
             <div
               className="card__side
@@ -120,7 +118,7 @@ const Tours = () => {
           Discover all tours
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 export default Tours;
