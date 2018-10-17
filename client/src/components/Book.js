@@ -43,6 +43,7 @@ const Book = () => {
                     name="size"
                   />
                   <label htmlFor="small" className="form__radio-label">
+                    <span className="form__radio-button" />
                     Small tour group
                   </label>
                 </div>
@@ -54,6 +55,7 @@ const Book = () => {
                     name="size"
                   />
                   <label htmlFor="large" className="form__radio-label">
+                    <span className="form__radio-button" />
                     Large tour group
                   </label>
                 </div>
