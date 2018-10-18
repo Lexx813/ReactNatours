@@ -34,7 +34,7 @@ const Book = () => {
                   Email adress
                 </label>
               </div>
-              <div className="form__group">
+              <div className="form__group u-margin-bottom-medium">
                 <div className="form__radio-group">
                   <input
                     type="radio"
@@ -59,6 +59,9 @@ const Book = () => {
                     Large tour group
                   </label>
                 </div>
+              </div>
+              <div className="form__group">
+                <button className="btn btn--green">Next step &rarr;</button>
               </div>
             </form>
           </div>

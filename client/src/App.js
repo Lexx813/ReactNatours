@@ -5,6 +5,7 @@ import Feature from "./components/Feature";
 import Tours from "./components/Tours";
 import Stories from "./components/Stories";
 import Book from "./components/Book";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Tours />
         <Stories />
         <Book />
+        <Footer />
       </React.Fragment>
     );
   }
