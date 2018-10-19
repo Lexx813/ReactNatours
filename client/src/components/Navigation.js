@@ -17,12 +17,12 @@ const Navigation = () => {
           <li className="navigation__item">
             <a href="/" className="navigation__link">
               <span>01</span>
-              About Natous
+              About Natours
             </a>
           </li>
           <li className="navigation__item">
             <a href="/" className="navigation__link">
-              <span>02</span> Your benfits
+              <span>02</span> Your benefits
             </a>
           </li>
           <li className="navigation__item">
