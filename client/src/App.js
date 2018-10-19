@@ -6,11 +6,14 @@ import Tours from "./components/Tours";
 import Stories from "./components/Stories";
 import Book from "./components/Book";
 import Footer from "./components/Footer";
+import Navigation from "./components/Navigation";
+import Popup from "./components/Popup";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <Navigation />
         <Header />
         <About />
         <Feature />
@@ -18,6 +21,7 @@ class App extends Component {
         <Stories />
         <Book />
         <Footer />
+        <Popup />
       </React.Fragment>
     );
   }

@@ -35,7 +35,7 @@ const Tours = () => {
                   <p className="card__price-only">Only</p>
                   <p className="card__price-value">$297</p>
                 </div>
-                <a href="/" className="btn btn--white">
+                <a href="#popup" className="btn btn--white">
                   Book now!
                 </a>
               </div>
@@ -70,7 +70,7 @@ const Tours = () => {
                   <p className="card__price-only">Only</p>
                   <p className="card__price-value">$497</p>
                 </div>
-                <a href="/" className="btn btn--white">
+                <a href="#popup" className="btn btn--white">
                   Book now!
                 </a>
               </div>
@@ -105,7 +105,7 @@ const Tours = () => {
                   <p className="card__price-only">Only</p>
                   <p className="card__price-value">$897</p>
                 </div>
-                <a href="/" className="btn btn--white">
+                <a href="#popup" className="btn btn--white">
                   Book now!
                 </a>
               </div>
@@ -113,8 +113,8 @@ const Tours = () => {
           </div>
         </div>
       </div>
-      <div className="u-center-text u-margin-top-huge">
-        <a href="/" className="btn btn--green">
+      <div className="u-center-text u-margin-top-small">
+        <a href="#popup" className="btn btn--green">
           Discover all tours
         </a>
       </div>
